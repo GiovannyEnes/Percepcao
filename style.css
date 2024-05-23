@@ -121,4 +121,11 @@ a:hover {
     transform: scale(0.94);
     }
 
-  
+ @media (max-width: 600px) {
+        body {
+          font-size: 14px;
+        }
+        .container {
+          display: block;
+        }
+      }
