@@ -121,11 +121,21 @@ a:hover {
     transform: scale(0.94);
     }
 
- @media (max-width: 600px) {
+ @media (max-width: 1800px) {
         body {
-          font-size: 14px;
+          font-size: 12px;
         }
-        .container {
-          display: block;
+        #esquerda {
+          width: 65%;
+        }
+        #direita {
+            width: 30%;
+        }
+        #filho1, #filho2, #filho3{
+            width: 70%;
+            height: 20%;
+        }
+        #central {
+            flex-direction:column-reverse ;
         }
       }
