@@ -123,7 +123,10 @@ a:hover {
 
  @media (max-width: 1800px) {
         body {
-          font-size: 12px;
+          font-size: 14px;
+        }
+        #foto {
+            height: 30vw;
         }
         #esquerda {
           width: 65%;
@@ -138,6 +141,8 @@ a:hover {
             margin: 3px 10px 3px 10px;
         }
         #central {
-            flex-direction:column-reverse ;
-        }
+            height: 850px;
+
+        
+        }   
       }
