@@ -87,7 +87,7 @@ a:hover {
     place-items: center; 
     display: grid;
     align-items: center;
-    }
+   }
 
 #filho1:hover {
     transform: scale(0.94);
@@ -129,11 +129,13 @@ a:hover {
           width: 65%;
         }
         #direita {
-            width: 30%;
+            width: 25%;
         }
         #filho1, #filho2, #filho3{
             width: 70%;
-            height: 20%;
+            height: 25%;
+            padding: 5px;
+            margin: 3px 10px 3px 10px;
         }
         #central {
             flex-direction:column-reverse ;
