@@ -1,9 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(Img/fundo3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #867f76;
 }
 
 P {
@@ -14,6 +12,19 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: left;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+   text-decoration:underline;
+}
 
 
 #arredondada {
@@ -50,8 +61,10 @@ h1 {
     text-align: center;
     align-items: center;
     justify-content: center;   
-    background-color: lightgray;
+    background-color: #867f76;
     border-radius: 15px;
+    border: 2px solid;
+    margin-right: 4px;
 }
 
 
@@ -61,28 +74,49 @@ h1 {
     color: white;
 }
 
+
+
 #filho1 {
     width: 300px;
     height: 20%;
     margin: 20px 0px 40px 40px;
+    border: 2px solid;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
+    padding: 5px;
+    place-items: center; 
+    display: grid;
+    align-items: center;
+    }
+
+#filho1:hover {
+    transform: scale(0.94);
     }
 
 #filho2 {
     width: 300px;
     height: 20%;
     margin: 20px 0px 40px 40px;
+    border: 2px solid;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-    
+    padding: 5px;
 }
+
+#filho2:hover {
+    transform: scale(0.94);
+    }
 
 #filho3 {
     width: 300px;
     height: 20%;
     margin: 10px 0px 40px 40px;
+    border: 2px solid;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-
+    padding: 5px;
 }
+
+#filho3:hover {
+    transform: scale(0.94);
+    }
