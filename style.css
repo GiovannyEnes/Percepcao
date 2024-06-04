@@ -152,24 +152,6 @@ a:hover {
    display: none;
 }
 
-#celular1 {
-    width: 300px;
-    height: 20%;
-    }
-#celular2 {
-    width: 300px;
-    height: 20%;
-    }
-#celular3 {
-    width: 300px;
-    height: 20%;
-    }
-
-#celular4 {
-    width: 300px;
-    height: 20%;
-    }
-
  @media (max-width: 1500px) {
         body, p {
           font-size: 14px;
@@ -207,7 +189,7 @@ a:hover {
 
         #celular1 {
             width: 90%;
-            overflow: hidden;
+            height: auto;
             background-color: white;
             text-align: center;
             place-items: center; 
