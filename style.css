@@ -220,7 +220,7 @@ a:hover {
 
         #celular2 {
             width: 90%;
-            overflow: hidden;
+            height: auto;
             text-align: center;
             background-color: white;
             place-items: center; 
@@ -232,7 +232,7 @@ a:hover {
             }
         #celular3 {
             width: 90%;
-            overflow: hidden;
+            height: auto;
             text-align: center;
             background-color: white;
             place-items: center; 
@@ -245,7 +245,7 @@ a:hover {
         
         #celular4 {
             width: 90%;
-            overflow: hidden;
+            height: auto;
             background-color: white;
             text-align: center;
             place-items: center; 
