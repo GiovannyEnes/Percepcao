@@ -184,7 +184,8 @@ a:hover {
             display: flex;
             flex-direction: column;
             width: 100%;
-            overflow: hidden;           
+            overflow: hidden;       
+            font-size: 14px;    
         }
 
         #celular1 {
