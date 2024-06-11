@@ -152,6 +152,21 @@ a:hover {
    display: none;
 }
 
+@media (max-width: 1500px) {
+        #esquerda {
+            width: 72%;
+        }
+
+        #direita {
+            width: 27%;
+            padding-right: 67px;
+        }
+        p{
+            font-size: 19px;
+        }
+    }
+
+
  @media (max-width: 1000px) {
         body, p {
           font-size: 14px;
